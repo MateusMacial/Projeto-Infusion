@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    background: #fff;
+    width: 100%;
+}
+
+.logo-text{
+    text-transform: uppercase;
+    background-color: #63c6ae;
+    font-size: 24px;
+    margin: 0;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    float: left;
+}
+
+.header__btnMenu{
+
+}
+
+.header__nav{
+    clear: left;
+}
+
+.header__nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav li {
+    list-style-type: none;
+    background: #242a2c;
+    text-align: center;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+}
+
+.header__nav a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #586165;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 25px 0;
+    transition: .5s ease;
+}
+
+.header__nav a:hover{
+    color: #63c6ae;
+}
+
+.hero{
+    height: 80vh;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image:   linear-gradient(45deg, #fff 50%, transparent 50%),
+                        linear-gradient(-45deg, #fff 50%, transparent 50%),
+                        url(../img/01.jpg);
+    background-size: 40px 40px, 40px 40px, cover;
+    background-repeat: no-repeat;
+    background-position: left calc(50% + 20px) bottom, left calc(50% - 20px) bottom, center;
+}
+
+.hero__title{
+    background-color: #63c6ae;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 30px 20px;
+    text-transform: uppercase;
+}
+
+.hero__text{
+    background-color: #242a2c;
+    margin: 5px 30px 35px;
+    color: #fff;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.hero__btn{
+    border: 1px solid rgba(255, 255, 255, .3);
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    padding: 15px 25px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
